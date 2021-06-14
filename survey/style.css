@@ -7,10 +7,6 @@ body{
  background-color: #fffff;
 }
 
-br{
-	margin: 30px;
-}
-
 disc{
 	color: darkred;
 	text-underline-position: under;
