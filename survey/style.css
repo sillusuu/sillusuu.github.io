@@ -10,3 +10,9 @@ body{
 br{
 	margin: 30px;
 }
+
+disc{
+	color: darkred;
+	text-underline-position: under;
+	font-size: small;
+}
