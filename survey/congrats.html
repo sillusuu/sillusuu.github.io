@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script>var dttt="stupid"</script>
+	<script>//var dttt="stupid"</script>
+		<script>$.urlParam = function(name){
+    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+    return results[1] || 0;
+}</script>
 <link rel="stylesheet" href="style.css">
 	<title>congrats</title>
 </head>
 <body>
 <p>you didnt get the <script type="text/javascript">
-Document.write(dttt);</script> gift card, sucks to suck right</p><br>
+document.write(name);</script> gift card, sucks to suck right</p><br>
 <img src="play.png" width="180"><br>
 <disc>go buy a real one are the store :)</disc>
 </body>
