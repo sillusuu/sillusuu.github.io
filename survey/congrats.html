@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script>$.urlParams = function(name){
+	<script>$.urlParam = function(name){
     var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
     return results[1] || 0;
 }</script>
@@ -10,7 +10,7 @@
 </head>
 <body>
 <p>you didnt get the $<script type="text/javascript">
-Document.write(urlParams.get('ffname'));</script> gift card, sucks to suck right</p><br>
+Document.write(name.get('ffname'));</script> gift card, sucks to suck right</p><br>
 <img src="play.png" width="50"><br>
 <disc>go buy a real one are the store :)</disc>
 </body>
